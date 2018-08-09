@@ -11,11 +11,13 @@ header{
     background-color: aliceblue;
 }
 
-.menu a{
+.menu a:hover{
     font-size: 15px;
     text-decoration: none;
     margin-left: 15px;
     color: #296cd8;
+    background-color: lightseagreen;
+
 }
 
 header img{
@@ -31,15 +33,17 @@ li{
     font-weight: bold;
     padding: 10px;
 }
+.exemplo{
+    text-align: center;
+}
 
 
 .exemplo li{
     background-color: violet;
     height: 200px;
     width: 200px;
-    display: block;
+    display: inline-block;
     margin-left: 20px;
-    
 }
 
 li:nth-child(2){
@@ -55,3 +59,51 @@ li:last-child{
     width: 200px;
 }
 
+#img{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin:0 auto;
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;    
+}
+
+.container li{
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.fds li{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 100px;
+}
+
+.fds{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#pudim{
+    position: sticky;
+}
+
+.flores{
+    
+    position: relative;
+    top: -620px;
+    left: 170px;
+}
+
+.flores img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    display: inline;
+
+}
