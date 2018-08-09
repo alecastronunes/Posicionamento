@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.menu a{
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #296cd8;
+}
+
+header img{
+    height: 40px;
+    width: 40px;
+    float: right;
+    padding-right: 15px;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.exemplo{
+    text-align: center;
+}
+.exemplo li{
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: 20px;
+    
+}
+
+li:nth-child(2){
+    background-color: #f4c141;
+    height: 200px;
+    width: 200px;
+    
+}
+
+li:last-child{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
